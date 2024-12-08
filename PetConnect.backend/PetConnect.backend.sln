@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4FAEF843-90C0-476D-9C60-82B122D3CE9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetConnect.Domain", "src\PetConnect.Domain\PetConnect.Domain.csproj", "{B527221F-CA18-43DD-BEA2-7FDF107BB4E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetConnect.Infractructure", "src\PetConnect.Infractructure\PetConnect.Infractructure.csproj", "{3FFEE453-15AE-4C6B-B71E-7D7CA5071E82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetConnect.API", "src\PetConnect.API\PetConnect.API.csproj", "{FE2F787A-9C13-4CB6-AE55-119F59CC6E85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetConnect.Application", "src\PetConnect.Application\PetConnect.Application.csproj", "{026D9E5C-C306-4340-A0DC-49DEEA88AC5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B527221F-CA18-43DD-BEA2-7FDF107BB4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B527221F-CA18-43DD-BEA2-7FDF107BB4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B527221F-CA18-43DD-BEA2-7FDF107BB4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B527221F-CA18-43DD-BEA2-7FDF107BB4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFEE453-15AE-4C6B-B71E-7D7CA5071E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFEE453-15AE-4C6B-B71E-7D7CA5071E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFEE453-15AE-4C6B-B71E-7D7CA5071E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFEE453-15AE-4C6B-B71E-7D7CA5071E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2F787A-9C13-4CB6-AE55-119F59CC6E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2F787A-9C13-4CB6-AE55-119F59CC6E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2F787A-9C13-4CB6-AE55-119F59CC6E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2F787A-9C13-4CB6-AE55-119F59CC6E85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{026D9E5C-C306-4340-A0DC-49DEEA88AC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026D9E5C-C306-4340-A0DC-49DEEA88AC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026D9E5C-C306-4340-A0DC-49DEEA88AC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026D9E5C-C306-4340-A0DC-49DEEA88AC5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B527221F-CA18-43DD-BEA2-7FDF107BB4E1} = {4FAEF843-90C0-476D-9C60-82B122D3CE9B}
+		{3FFEE453-15AE-4C6B-B71E-7D7CA5071E82} = {4FAEF843-90C0-476D-9C60-82B122D3CE9B}
+		{FE2F787A-9C13-4CB6-AE55-119F59CC6E85} = {4FAEF843-90C0-476D-9C60-82B122D3CE9B}
+		{026D9E5C-C306-4340-A0DC-49DEEA88AC5E} = {4FAEF843-90C0-476D-9C60-82B122D3CE9B}
+	EndGlobalSection
+EndGlobal
