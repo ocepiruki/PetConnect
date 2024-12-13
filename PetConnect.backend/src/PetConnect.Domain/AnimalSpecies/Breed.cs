@@ -9,21 +9,21 @@ namespace PetConnect.Domain.AnimalSpecies
             
         }
 
-        private Breed(string breedName)
+        private Breed(string name)
         {
             Id = Guid.NewGuid();
-            BreedName = breedName;
+            Name = name;
         }
 
         public Guid Id { get; private set; }
-        public string BreedName { get; private set; } = default!;
+        public string Name { get; private set; } = default!;
 
-        public static Result<Breed> Create(string breedName)
+        public static Result<Breed> Create(string name)
         {
-            if (string.IsNullOrWhiteSpace(breedName))
+            if (string.IsNullOrWhiteSpace(name))
                 return Result.Failure<Breed>("Breed name should not be empty");
 
-            var breed = new Breed(breedName);
+            var breed = new Breed(name);
             return Result.Success(breed);
         }
     }
